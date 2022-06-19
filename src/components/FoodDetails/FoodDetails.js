@@ -75,7 +75,7 @@ const FoodDetails = () => {
                   <div className="col-lg-6 col-md-6">
                      <div className="info">
                         <h3 className="name">{name}</h3>
-                        <h4 className="price">R{price}</h4>
+                        <h4 className="price">${price}</h4>
                         <p>{description}</p>
                      </div>
                      <form
