@@ -47,7 +47,7 @@ const OrderHistory = () => {
                                     <td>{order._id}</td>
                                     <td></td>
                                     <td>{order.date}</td>
-                                    <td>R{order.price}</td>
+                                    <td>${order.price}</td>
                                     <td>{order.status}</td>
                                  </tr>
                               ))}
