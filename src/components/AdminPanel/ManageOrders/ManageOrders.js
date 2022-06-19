@@ -73,7 +73,7 @@ const ManageOrders = () => {
                                     <p>{order.quantity}</p>
                                  </td>
                                  <td>
-                                    <p>${order.price}</p>
+                                    <p>R{order.price}</p>
                                  </td>
                                  <td>
                                     <p>
